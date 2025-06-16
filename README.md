@@ -106,24 +106,4 @@ aliases: ["Captura del {{date}}"]
 - [ ] Revisar esta captura
 ```
 
-## 📂 Estructura del Proyecto
 
-```
-.
-├── .github/                 # Recursos para el README
-│   └── readme-images/
-│       └── ...
-├── Templates/                 # Plantillas de ejemplo para los usuarios
-│   └── Ejemplo de Plantilla de Captura.md
-├── 📜 Configurar.ps1         # Asistente de configuración
-├── 📜 Send2Obsidian.ps1      # Lógica principal de la herramienta
-├── 🚀 Lanzador.vbs           # Ejecutable silencioso (para el acceso directo)
-├── 🎨 icon.ico               # Icono personalizado
-├── 📄 .gitignore             # Ignora archivos de configuración local
-├── 📄 LICENSE                # Licencia del proyecto
-└── 📄 README.md               # Esta guía
-```
-
-## 📜 Licencia
-
-Este proyecto está bajo la Licencia MIT. Consulta el archivo `LICENSE` para más detalles.
