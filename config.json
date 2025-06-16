@@ -1,9 +1,9 @@
 ﻿{
-    "vaultRoot":  "C:\\Obsidian.Vaults",
-    "assetsFolder":  "C:\\Obsidian.Vaults\\03 - Resources\\Assets",
-    "notesFolder":  "C:\\Obsidian.Vaults\\05 - Captura",
+    "vaultRoot":  "",
+    "assetsFolder":  "",
+    "notesFolder":  "",
     "editorPath":  "notepad.exe",
-    "obsidianTemplatePath":  "C:\\Obsidian.Vaults\\00 - Template\\Capture-{{timestamp}}.md",
+    "obsidianTemplatePath":  "",
     "timestampFormat":  "yyyyMMddHHmmss",
     "noteNameTemplate":  "capture-{{timestamp}}.md",
     "imageNameTemplate":  "img-S2O-{{timestamp}}.png"
