@@ -84,7 +84,7 @@ Puedes indicarle a la herramienta que use una de tus plantillas de Obsidian para
 
 #### Plantilla de Ejemplo
 
-Puedes descargar una plantilla de ejemplo lista para usar desde esta carpeta del repositorio: [`/Templates/Ejemplo de Plantilla de Captura.md`](/Templates/Ejemplo%20de%20Plantilla%20de%20Captura.md).
+Puedes descargar una plantilla de ejemplo lista para usar desde esta carpeta del repositorio: [`/Templates/Ejemplo de Plantilla de Captura.md`](https://github.com/Wilberucx/Send2Obsidian/blob/main/Template.md).
 
 ```markdown
 ---
