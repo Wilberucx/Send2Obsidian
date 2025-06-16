@@ -26,7 +26,7 @@ Una herramienta ligera y potente para Windows que te permite capturar una imagen
 Sigue estos pasos para tener la herramienta funcionando en menos de 2 minutos.
 
 **1. Descargar la Herramienta**
-   - Ve a la sección [**Releases**](https://github.com/tu_usuario/tu_repositorio/releases) de este repositorio y descarga el último archivo `.zip`.
+   - Ve a la sección [**Releases**](https://github.com/Wilberucx/Send2Obsidian/releases/tag/tool) de este repositorio y descarga el último archivo `.zip`.
    - Descomprime el archivo `.zip` en una ubicación permanente de tu ordenador (ej. `C:\Herramientas\Obsidian-Quick-Capture`).
 
 **2. Ejecutar la Configuración Inicial**
