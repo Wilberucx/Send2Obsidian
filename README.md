@@ -30,13 +30,14 @@ Sigue estos pasos para tener la herramienta funcionando en menos de 2 minutos.
    - Descomprime el archivo `.zip` en una ubicación permanente de tu ordenador (ej. `C:\Herramientas\Obsidian-Quick-Capture`).
 
 **2. Ejecutar la Configuración Inicial**
-   - Dentro de la carpeta, haz doble clic en el archivo `Configurar.ps1`.
-     - *Nota: Puede que necesites hacer clic derecho > "Ejecutar con PowerShell". Si Windows bloquea la ejecución, abre PowerShell como administrador y ejecuta: `Set-ExecutionPolicy RemoteSigned -Scope CurrentUser`, luego presiona 'S' para confirmar.*
-   - Un asistente gráfico te guiará para:
+   - Dentro de la carpeta descomprimida, busca el archivo `Configurar(Admin).bat`.
+   - Haz **doble clic** en él.
+   - Windows te pedirá permisos de administrador. Haz clic en **"Sí"**.
+   - Se abrirá el asistente gráfico que te guiará para:
      1.  Seleccionar las **carpetas** de tu vault (raíz, assets y notas).
      2.  Decidir si quieres usar una **plantilla de Obsidian** (¡recomendado!).
      3.  Definir los **formatos de nombre** para tus notas e imágenes.
-   - Al finalizar, se creará un archivo `config.json` con tus preferencias.
+   - Sigue los pasos y, al finalizar, se creará un archivo `config.json` con tus preferencias.
 
 **3. Crear el Acceso Directo**
    - Haz clic derecho sobre el archivo `Lanzador.vbs` y selecciona **Crear acceso directo**.
