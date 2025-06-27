@@ -1,4 +1,3 @@
-```Markdown
 ---
 aliases:
   - S2Ocapture-{{timestamp}}
@@ -12,4 +11,3 @@ Date: {{date}} {{time}}
 
 ## Tareas
 - [ ] tarea 1 
-```
