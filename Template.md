@@ -2,7 +2,7 @@
 aliases:
   - S2Ocapture-{{timestamp}}
 tags: 
-Date: {{date}} {{time}}
+Date: {{date}}
 ---
 {{image_link}}
 
