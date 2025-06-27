@@ -27,21 +27,24 @@ Sigue estos pasos para tener la herramienta funcionando en menos de 2 minutos.
 
 **1. Descargar la Herramienta**
    - Ve a la sección [**Releases**](https://github.com/Wilberucx/Send2Obsidian/releases/tag/tool) de este repositorio y descarga el último archivo `.zip`.
-   - Descomprime el archivo `.zip` en una ubicación permanente de tu ordenador (ej. `C:\Herramientas\Obsidian-Quick-Capture`).
+   - Descomprime el archivo `.zip` en una ubicación permanente de tu ordenador (ej. `C:\Program Files\Send2Obsidian`).
 
 **2. Ejecutar la Configuración Inicial**
    - Dentro de la carpeta descomprimida, busca el archivo `Configurar(Admin).bat`.
    - Haz **doble clic** en él.
    - Windows te pedirá permisos de administrador. Haz clic en **"Sí"**.
    - Se abrirá el asistente gráfico que te guiará para:
-     1.  Seleccionar las **carpetas** de tu vault (raíz, assets y notas).
-     2.  Decidir si quieres usar una **plantilla de Obsidian** (¡recomendado!).
+     1.  Seleccionar las **carpetas** de tu vault
+         1. Carpeta de raíz (Tu Vault)
+         2. assets, donde quieres guardar las imágenes
+         3. Donde normalmente almacenas tus capturas (fleeting notes, capturas, inbox, etc)
+     2.  Decidir si quieres usar una **plantilla de Obsidian** (¡recomendado!). Cada cambio que hagas en tu plantilla seleccionada dentro de tu obsidian se verá reflejada en tus capturas con la herramienta, por lo que es recomendable que designes una especialmente para la herramienta.
      3.  Definir los **formatos de nombre** para tus notas e imágenes.
    - Sigue los pasos y, al finalizar, se creará un archivo `config.json` con tus preferencias.
 
 **3. Crear el Acceso Directo**
    - Haz clic derecho sobre el archivo `Lanzador.vbs` y selecciona **Crear acceso directo**.
-   - Mueve este acceso directo a tu escritorio o anclálo a tu barra de tareas.
+   - Mueve este acceso directo a tu escritorio.
    - Renómbralo a algo como "Captura Rápida a Obsidian".
 
 **4. Asignar el Icono Personalizado (Opcional pero recomendado)**
@@ -75,7 +78,7 @@ Durante la configuración (`Configurar.ps1`), puedes definir patrones exactos pa
 Puedes indicarle a la herramienta que use una de tus plantillas de Obsidian para dar formato a cada nueva nota.
 
 **Cómo funciona:**
-1.  **Crea tu plantilla en Obsidian.** Diseña un archivo `.md` en tu vault.
+1.  **Crea tu plantilla en Obsidian.** Diseña una plantilla en tu carpeta de plantillas (si la tienes), recomendable especialmente para la herramienta por lo que puedes crear una copia de tu plantilla designada para tus capturas y designarle un nombre para identificar fácilemente en tu configuración S2O. 
 2.  **Usa los placeholders especiales:** La herramienta buscará y reemplazará estos marcadores en tu plantilla:
     -   `{{timestamp}}`: La marca de tiempo completa (con tu formato personalizado).
     -   `{{date}}`: La fecha actual (ej. `2023-10-27`).
