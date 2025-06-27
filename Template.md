@@ -2,9 +2,14 @@
 ---
 aliases:
   - S2Ocapture-{{timestamp}}
-Area: 
 tags: 
-Date: {{date}}
+Date: {{date}} {{time}}
 ---
 {{image_link}}
+
+## Notas adicionales
+
+
+## Tareas
+- [ ] tarea 1 
 ```
